@@ -789,6 +789,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+![Screenshot 2025-03-08 224821](https://github.com/user-attachments/assets/71e2a49f-2b05-4281-8395-d3194f8c16db)
 
 # using the case command
 cat >casecheck.sh 
@@ -873,24 +874,15 @@ do
 echo “word:$test”
 done
  ```
- 
-$ chmod 755 forin2.sh
- 
-cat forin2.sh 
-```bash
-\#!/bin/bash
-\# another example of how not to use the for command
-for test in I don't know if this'll work
-do
-echo “word:$test”
-done
-```
+
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
 
  ## OUTPUT
- 
+ ![Screenshot 2025-03-08 222811](https://github.com/user-attachments/assets/22dad3f3-2810-4f22-8159-6f216b6a12a7)
+
+
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -901,6 +893,9 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
+
+ ## OUTPUT
+ ![Screenshot 2025-03-08 221204](https://github.com/user-attachments/assets/057c74bd-0ed6-43e0-aeed-80e55d1df6e9)
  
 cat forin1.sh 
 ```bash
@@ -914,6 +909,8 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+![Screenshot 2025-03-08 224059](https://github.com/user-attachments/assets/1854bd38-f863-4fa8-a6ed-2c36215492af)
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -1097,6 +1094,7 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
+![Screenshot 2025-03-08 225746](https://github.com/user-attachments/assets/926c0d60-b28f-45d6-bfb4-c9fdf64f3e97)
 
  
  cat argshift1.sh
