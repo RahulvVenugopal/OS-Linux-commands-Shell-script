@@ -380,6 +380,7 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+![Screenshot 2025-03-08 175609](https://github.com/user-attachments/assets/b214c75c-8530-4a58-a505-2f0581e82f0e)
 
 
 
@@ -387,6 +388,8 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+![Screenshot 2025-03-08 180412](https://github.com/user-attachments/assets/cf4d5b2e-cc1d-48ba-836d-930fb4fe7c43)
+
 
 cat < urllist.txt
 ```
@@ -403,17 +406,22 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+ ![image](https://github.com/user-attachments/assets/b357c86b-f059-428b-a99f-a4f635101751)
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/7615aa5b-5021-41a5-b299-4ce6769ff1d7)
 
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+![Screenshot 2025-03-06 091311](https://github.com/user-attachments/assets/826eb00d-3b0a-476b-97c6-d18c8b006c52)
+![Screenshot 2025-03-06 091336](https://github.com/user-attachments/assets/eea69801-6458-48e7-bc3f-dbac4d173b33)
+![Screenshot 2025-03-06 091357](https://github.com/user-attachments/assets/de5de35d-e9f4-40cb-9fbf-c3b3c594abd8)
 
 
 mkdir backupdir
@@ -422,18 +430,23 @@ mv backup.tar backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+![Screenshot 2025-03-06 091948](https://github.com/user-attachments/assets/263e0e3d-9e7f-466f-8635-093e3914a3ea)
+![Screenshot 2025-03-06 092006](https://github.com/user-attachments/assets/16f8b73b-2647-4fe4-9931-98205433ff94)
 
 
 tar -xvf backup.tar
 ## OUTPUT
+![Screenshot 2025-03-06 092206](https://github.com/user-attachments/assets/70dfefeb-0159-4752-aca2-e1f83e3c8158)
+![Screenshot 2025-03-06 092227](https://github.com/user-attachments/assets/76a5ed7b-9bb1-4af7-9b1d-d5fb80727f7e)
+![Screenshot 2025-03-06 092249](https://github.com/user-attachments/assets/bf5cdd66-0be1-41e2-95a4-b7dd19f3e867)
 
 gzip backup.tar
 
 ls .gz
-## OUTPUT
  
 gunzip backup.tar.gz
 ## OUTPUT
+![Screenshot 2025-03-06 092436](https://github.com/user-attachments/assets/4a195078-75c6-4917-a79f-9c1c5fd69ee4)
 
  
 # Shell Script
