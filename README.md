@@ -565,14 +565,14 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
-
 
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+![Screenshot 2025-03-08 140643](https://github.com/user-attachments/assets/2e54be31-9890-4810-8c63-11f7511bad9d)
+
 
 
 # check file ownership
@@ -600,6 +600,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+![Screenshot 2025-03-08 140710](https://github.com/user-attachments/assets/6c25b267-41fe-44e5-850d-c68c4eee6b89)
 
 # check if with file location
 cat>ifnested.sh 
@@ -646,6 +647,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+![Screenshot 2025-03-08 140754](https://github.com/user-attachments/assets/6ddde99a-21c2-475e-b802-74b166818977)
 
 
 
@@ -689,7 +691,9 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
+## OUTPUT
+*![Screenshot 2025-03-08 140814](https://github.com/user-attachments/assets/4b1ea3cb-606a-4266-9ca3-a4405c9add83)
+
 
 # check if a file
 cat > ifnested.sh 
@@ -738,7 +742,8 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
+## OUTPUT
+![Screenshot 2025-03-08 140754](https://github.com/user-attachments/assets/6780e380-fecd-46b0-925e-14f19d4c4b27)
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -767,6 +772,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+![Screenshot 2025-03-08 141405](https://github.com/user-attachments/assets/65679ba2-dbaf-4a78-8f32-858713a097ff)
 
 
 # testing compound comparisons
@@ -802,7 +808,9 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+ ## OUTPUT
+ ![Screenshot 2025-03-08 150654](https://github.com/user-attachments/assets/855c1027-8801-407c-a30e-ed8cec861430)
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -817,7 +825,9 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
+ ## OUTPUT
+ ![Screenshot 2025-03-08 152900](https://github.com/user-attachments/assets/6aa031ce-59ca-4787-acb5-085c2877320d)
+
  
 cat untiltest.sh 
 ```bash
@@ -831,7 +841,11 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  
- 
+ ./untiltest.sh
+
+ ## OUTPUT
+ ![Screenshot 2025-03-08 152900](https://github.com/user-attachments/assets/99b7bad1-7271-4cbd-8dbe-8553d5988d22)
+
  
 cat forin1.sh 
 ```bash
@@ -845,7 +859,11 @@ done
  
 $ chmod 755 forin1.sh
  
- 
+ ./forin1.sh
+
+ ## OUTPUT
+ ![Screenshot 2025-03-08 152943](https://github.com/user-attachments/assets/2044a46d-1944-4a6c-8930-b304b0c089fc)
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
