@@ -888,6 +888,8 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
+
+ ## OUTPUT
  
 cat forin3.sh 
 ```bash
@@ -933,6 +935,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
+![Screenshot 2025-03-08 154923](https://github.com/user-attachments/assets/b2d65005-0c49-4a16-84f2-605b718d92e6)
 
 
 cat forctype.sh 
@@ -947,6 +950,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+![Screenshot 2025-03-08 155012](https://github.com/user-attachments/assets/2539d80d-a98c-4241-867f-813e1f929bbb)
 
 cat forctype1.sh 
 ```bash
@@ -960,6 +964,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+![Screenshot 2025-03-08 155646](https://github.com/user-attachments/assets/2b544fe2-5670-4253-8a4e-5e9acc3e0d04)
 
 cat fornested1.sh 
 ```bash
@@ -978,6 +983,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+![Screenshot 2025-03-08 155703](https://github.com/user-attachments/assets/fd74ad13-6a05-4db6-bd24-cad08e42f73b)
 
  
 cat forbreak.sh 
@@ -995,6 +1001,8 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+![Screenshot 2025-03-08 155731](https://github.com/user-attachments/assets/7257d043-80ea-417f-8d0f-781a64d34794)
+
 
 $ chmod 755 forbreak.sh
  
@@ -1020,6 +1028,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
+![Screenshot 2025-03-08 160455](https://github.com/user-attachments/assets/cf22b0ca-b8cd-4ac2-8abd-3a2fe6c5d076)
+
  
 cat exread.sh 
 ```bash
@@ -1034,6 +1044,8 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+![Screenshot 2025-03-08 160632](https://github.com/user-attachments/assets/374debea-cc30-4f61-80a0-7be2c9903389)
+
 
 
  cat exread1.sh
@@ -1044,13 +1056,11 @@ read -p "Enter your name: " name
 echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
+$ ./exread1.sh 
 
 ## OUTPUT
+ ![Screenshot 2025-03-08 160651](https://github.com/user-attachments/assets/bb9ff26a-cee9-40db-b31a-ade7197d6ca4)
 
-
-
-$ ./exread1.sh 
- 
 cat funcex.sh
 ```bash
 #!/bin/bash
@@ -1066,11 +1076,13 @@ else
 echo "Usage: badtest1 a b"
 fi
 ```
-## OUTPUT
+
  ./funcex.sh 
 
  
  ./funcex.sh 1 2
+ ## OUTPUT
+![Screenshot 2025-03-08 161604](https://github.com/user-attachments/assets/2b6f0251-a587-493b-82bb-95d74336d1b6)
 
  
 cat argshift.sh
@@ -1085,6 +1097,7 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
+
  
  cat argshift1.sh
 ```bash
@@ -1102,7 +1115,8 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+ ![Screenshot 2025-03-08 161627](https://github.com/user-attachments/assets/6b1e6d3f-997c-4772-a470-bde12fcb876b)
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1115,7 +1129,9 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
- 
+![Screenshot 2025-03-08 162219](https://github.com/user-attachments/assets/c9958151-473a-4ca6-9a03-1bbac9ac6e2f)
+
+
  
 cat > nc.awk
 ```bash
@@ -1146,6 +1162,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
+![Screenshot 2025-03-08 163327](https://github.com/user-attachments/assets/25cb4804-a795-4d14-9f2d-797228ba61c7)
+
  
 cat > palindrome.sh
 ```bash
@@ -1173,6 +1191,7 @@ else
 fi
 ```
 ## OUTPUT 
+![Screenshot 2025-03-08 163411](https://github.com/user-attachments/assets/5d0879e5-79a6-489b-ba87-1d343c15a976)
 
 
 # RESULT:
